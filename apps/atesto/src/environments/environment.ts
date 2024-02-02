@@ -1,0 +1,9 @@
+// This file can be replaced during build by using the `fileReplacements` array.
+// When building for production, this file is replaced with `environment.prod.ts`.
+
+export const environment = {
+  production: false,
+  url: 'https://api.atestonf.seed.pr.gov.br',
+  bearer:
+    'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkVkaXNvbiBUZXpvbGluIiwic2lkIjoiMSIsInN1YiI6IkVkaXNvbiBUZXpvbGluIiwiQ3BmIjoiMDQyODE4Mjg5NTgiLCJlbWFpbCI6InRlem9saW5AZXNjb2xhLnByLmdvdi5iciIsImp0aSI6IjRjZjRhOTE4LTYyOWUtNDI4ZS05MjRhLTFjMTA3YjVjZjc1ZiIsImlhdCI6MTY3ODI4Njc3MywiZXhwIjoxNjg0Mjg2NzEzLCJSb2xlSWQiOiIxIiwiUm9sZU5hbWUiOiJhZG1pbiIsIklzVGVhY2hlciI6IkZhbHNlIiwiUGVybWlzc2lvbiI6WyJBZG1pbiIsIlVzZXIiLCJSZWFkIiwiV3JpdGUiLCJTcGVjaWZpYyIsIk1vbml0b3IiLCJUZWFjaGVyIl0sInJvbGUiOiJhZG1pbiIsIm5iZiI6MTY3ODI4Njc3MywiaXNzIjoiQVRFU1RPIiwiYXVkIjoiQVRFU1RPIn0.kVuGqq1lslE5j4sj7KZdv56q5M41yO7SUOxAf-aYS9I',
+};

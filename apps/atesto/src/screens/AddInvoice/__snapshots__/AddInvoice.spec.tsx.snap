@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddInvoice AddInvoice Snap renders correctly 1`] = `
+<div>
+  <div
+    class="Header__HeaderContainer-uzqoib-0 kaGncl"
+  >
+    <div
+      class="Header__ButtonIconLeft-uzqoib-1"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          width="80"
+        >
+          icon_home.svg
+        </svg>
+        <h1
+          class="Header__Text-uzqoib-5 dgxrWf"
+        >
+          INÍCIO
+        </h1>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="Header__HeaderTitle-uzqoib-2"
+    >
+      <h1
+        class="Header__Title-uzqoib-4 cZotme"
+      >
+        ADICIONAR CONTRATOS
+      </h1>
+    </div>
+    <div
+      class="Header__ButtonIconRight-uzqoib-3"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          width="80"
+        >
+          icon_arrow_circle_left.svg
+        </svg>
+        <h1
+          class="Header__Text-uzqoib-5 dgxrWf"
+        >
+          VOLTAR
+        </h1>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+  <form
+    action="#"
+    class="styles__StyledForm-nufrg-0 dHvgSY"
+  >
+    <div>
+      <label
+        for="numNFV"
+      >
+        Número NFV
+      </label>
+      <input
+        id="numNFV"
+        name="numNFV"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="serie"
+      >
+        Série
+      </label>
+      <input
+        id="serie"
+        name="serie"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="codigo"
+      >
+        Código
+      </label>
+      <input
+        id="codigo"
+        name="codigo"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="dataEmissao"
+      >
+        Data de Emissão
+      </label>
+      <input
+        id="dataEmissao"
+        lang="pr-Br"
+        name="dataEmissao"
+        type="datetime-local"
+        value="Thu Apr 13 2023 19:44:23 GMT-0300 (Brasilia Standard Time)"
+      />
+    </div>
+    <div>
+      <label
+        for="valorNota"
+      >
+        Valor da Nota
+      </label>
+      <input
+        id="valorNota"
+        name="valorNota"
+        type="number"
+        value="0"
+      />
+    </div>
+    <div>
+      <label
+        for="status"
+      >
+        Status
+      </label>
+      <select
+        id="status"
+        name="status"
+      >
+        <option
+          value="0"
+        >
+          Pendente
+        </option>
+        <option
+          value="1"
+        >
+          Pago
+        </option>
+        <option
+          value="2"
+        >
+          Cancelado
+        </option>
+      </select>
+    </div>
+    <div>
+      <label
+        for="contratoId"
+      >
+        ID do Contrato
+      </label>
+      <input
+        id="contratoId"
+        name="contratoId"
+        type="number"
+        value="0"
+      />
+    </div>
+    <div>
+      <label
+        for="fornecedorId"
+      >
+        ID do Fornecedor
+      </label>
+      <input
+        id="fornecedorId"
+        name="fornecedorId"
+        type="number"
+        value="0"
+      />
+    </div>
+    <div>
+      <label
+        for="workplaceId"
+      >
+        ID do Local de Trabalho
+      </label>
+      <input
+        id="workplaceId"
+        name="workplaceId"
+        type="number"
+        value="0"
+      />
+    </div>
+    <button
+      type="submit"
+    >
+      Enviar
+    </button>
+  </form>
+</div>
+`;
